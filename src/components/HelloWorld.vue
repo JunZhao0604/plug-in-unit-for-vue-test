@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <CountTime :name="name" :info="info"></CountTime>
+    <Button label='这是一个按钮' primary />
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -33,6 +34,7 @@
 
 <script>
 import CountTime from '../stories/CountTime';
+import Button from '../stories/Button';
 export default {
   name: 'HelloWorld',
   props: {
@@ -44,7 +46,7 @@ export default {
       trueOverTime: '',
     }
   },
-  components: {CountTime}
+  components: {CountTime, Button}
 }
 </script>
 
