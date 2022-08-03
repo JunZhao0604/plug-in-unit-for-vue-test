@@ -1,6 +1,6 @@
 {
-  "name": "vue_test_zzjj_0802",
-  "version": "0.1.2",
+  "name": "vue_test_zzjj",
+  "version": "0.1.4",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
